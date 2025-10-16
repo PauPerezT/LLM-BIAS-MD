@@ -53,6 +53,24 @@ See `configs/config.yaml`. You can also override via environment variable:
 export CONFIG_PATH=/absolute/path/to/your_config.yaml
 ```
 
+## Citation
+If you use this repository or its ideas in your research, please cite it as:
+
+```
+@article{PerezToro2025,
+  author    = {Paula A. Perez-Toro and Jack Dineley and Rafael Iniesta and others},
+  title     = {{Exploring biases related to the use of large language models in a multilingual depression corpus}},
+  journal   = {Scientific Reports},
+  volume    = {15},
+  pages     = {36197},
+  year      = {2025},
+  doi       = {10.1038/s41598-025-19980-x},
+  url       = {https://doi.org/10.1038/s41598-025-19980-x}
+}
+```
+
+
+
 ## Notes
 - The model is frozen for stability on small datasets. Unfreeze layers if you have more data.
 - For multi-GPU or CPU, edit the `accelerator`/`devices` fields in the config.
@@ -60,3 +78,4 @@ export CONFIG_PATH=/absolute/path/to/your_config.yaml
 
 ## License
 MIT
+
