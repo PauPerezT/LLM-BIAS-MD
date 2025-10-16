@@ -1,4 +1,5 @@
-# Exploring biases related to the use of large language models in a multilingual depression corpus --> LLM Classification Pipeline
+# Exploring biases related to the use of large language models in a multilingual depression corpus
+# LLM Classification Pipeline
 
 PyTorch Lightning pipeline for classifying mental health labels using a frozen LLMs backbone with a lightweight classifier head.
 
