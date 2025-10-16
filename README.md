@@ -1,9 +1,9 @@
-# MentaLLaMA Classification Pipeline
+# LLM Classification Pipeline
 
-A clean, repo-ready PyTorch Lightning pipeline for classifying mental health labels using a frozen MentaLLaMA backbone with a lightweight classifier head.
+PyTorch Lightning pipeline for classifying mental health labels using a frozen LLMs backbone with a lightweight classifier head.
 
 ## Features
-- Frozen `klyang/MentaLLaMA-chat-7B-hf` backbone with masked mean pooling
+- For instance, Frozen `klyang/MentaLLaMA-chat-7B-hf` backbone with masked mean pooling
 - TorchMetrics (accuracy, macro recall) + sklearn UAR
 - Class-weighted cross-entropy (optional, if dataset exposes `.weight`)
 - Deterministic training & safe cleanup between runs
