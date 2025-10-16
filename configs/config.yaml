@@ -1,0 +1,15 @@
+seed: 42
+base_path_init: ""           # e.g. /data/radar
+output_dir: "./checkpoints"
+project_name: "2C_LM_IS24"
+model_name: "klyang/MentaLLaMA-chat-7B-hf"
+max_epochs: 80
+patience: 40
+batch_size: 1
+num_workers: 4
+lr: 0.001
+weight_decay: 0.1
+accelerator: "gpu"           # "cpu" if no GPU
+devices: 1
+use_wandb: true
+save_predictions_dir: "."
